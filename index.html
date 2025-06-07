@@ -37,7 +37,7 @@
             </div>
 
             <!-- Formulaire -->
-            <form action="#" method="post" style="margin-bottom: 25px;">
+            <form action="https://visionvibrancy.us3.list-manage.com/subscribe/post?u=5fae4512ba6bf04ce94b237b8&id=064218f5ec&f_id=00d6dffe3f0" method="post" style="margin-bottom: 25px;">
                 <div style="margin-bottom: 20px;">
                     <label style="display: block; font-size: 14px; color: #5d4a4a; margin-bottom: 8px; font-weight: bold;">Prénom *</label>
                     <input type="text" name="prenom" required style="width: 100%; padding: 15px; border: 2px solid #e8d6d6; border-radius: 10px; font-size: 16px; font-family: Georgia, serif; background-color: #fdfcfc; color: #5d4a4a; box-sizing: border-box; transition: border-color 0.3s;" 
@@ -48,7 +48,7 @@
                 
                 <div style="margin-bottom: 25px;">
                     <label style="display: block; font-size: 14px; color: #5d4a4a; margin-bottom: 8px; font-weight: bold;">Email *</label>
-                    <input type="email" name="email" required style="width: 100%; padding: 15px; border: 2px solid #e8d6d6; border-radius: 10px; font-size: 16px; font-family: Georgia, serif; background-color: #fdfcfc; color: #5d4a4a; box-sizing: border-box; transition: border-color 0.3s;" 
+                    <input type="email" name="EMAIL" required style="width: 100%; padding: 15px; border: 2px solid #e8d6d6; border-radius: 10px; font-size: 16px; font-family: Georgia, serif; background-color: #fdfcfc; color: #5d4a4a; box-sizing: border-box; transition: border-color 0.3s;" 
                     onfocus="this.style.borderColor='#c8a2a2'; this.style.backgroundColor='#ffffff';" 
                     onblur="this.style.borderColor='#e8d6d6'; this.style.backgroundColor='#fdfcfc';"
                     placeholder="votre@email.com">
@@ -87,20 +87,8 @@
     </div>
 
     <script>
-        // Gestion du formulaire
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Récupérer les données
-            const prenom = this.prenom.value;
-            const email = this.email.value;
-            
-            // Ici, vous remplacerez par l'action Mailchimp réelle
-            alert('Merci ' + prenom + ' ! Votre inscription est en cours de traitement.');
-            
-            // Réinitialiser le formulaire
-            this.reset();
-        });
+        // Le formulaire est maintenant connecté directement à Mailchimp
+        // Plus besoin de JavaScript pour la gestion
     </script>
 
 </body>
